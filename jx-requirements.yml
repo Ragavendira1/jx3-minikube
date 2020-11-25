@@ -19,7 +19,7 @@ cluster:
   provider: minikube
 environments:
 - ingress:
-    domain: "192.168.49.2.nip.io"
+    domain: 192.168.49.2.nip.io
     externalDNS: false
     namespaceSubDomain: ""
     tls:
