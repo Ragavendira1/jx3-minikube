@@ -39,7 +39,7 @@ spec:
         - name: XDG_CONFIG_HOME
           value: /workspace/xdg_config
         image: gcr.io/jenkinsxio/jx-boot:3.0.754
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         name: job
         volumeMounts:
         - mountPath: /workspace
